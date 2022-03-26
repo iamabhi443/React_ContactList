@@ -1,0 +1,53 @@
+/* Style for body background */
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for box where all data display */
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: .5rem;
+
+}
+
+/* set font-size of card text */
+.card-text {
+    font-weight: bold;
+}
+
+.card {
+    margin-left: 2rem;
+    /* margin-right: 2rem; */
+    margin-top: 2rem;
+    height: 14rem;
+    background-color: #ffe6cc;
+}
+
+/* .btn{
+    margin-bottom: 10%;
+    margin-top: 20%;
+} */
+/* Styles for input section  */
+.FormData {
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+
+/* font style for label text */
+.form-label {
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 13px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 60%;
+}
